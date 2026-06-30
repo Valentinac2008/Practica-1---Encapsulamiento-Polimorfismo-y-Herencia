@@ -6,9 +6,9 @@ namespace ConsoleApp2
     lista.Add(new Pizza());
 lista.Add(new Ensalada());
 
-foreach(Plato item in lista)
+foreach(Plato item in lista){
     Console.WriteLine(item.Preparar());
-
+}
 
 
 }
