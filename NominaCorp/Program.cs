@@ -6,9 +6,9 @@ namespace ConsoleApp3
     lista.Add(new Programador());
 lista.Add(new Diseñador());
 
-foreach(Empleado item in lista)
+foreach(Empleado item in lista){
     Console.WriteLine(item.Trabajar());
-
+}
 
 
 }
