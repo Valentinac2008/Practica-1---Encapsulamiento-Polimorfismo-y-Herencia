@@ -6,11 +6,9 @@ class Program
 {
     static void Main()
     {
-        List<Vehiculo> vehiculos = new List<Vehiculo>()
-        {
-            new AutoElectrico("Tesla", 500),
-            new Camioneta("Ford", true)
-        };
+        List<Vehiculo> vehiculos = new List<Vehiculo>();
+            new AutoElectrico("Tesla", 500);
+            new Camioneta("Ford", true);
 
         foreach (Vehiculo v in vehiculos)
         {
