@@ -6,7 +6,7 @@ namespace ConsoleApp1
     lista.Add(new AspiradoraRobot());
     lista.Add(new LamparaInteligente());
 
-    foreach(Dispositivo item in lista)
+    foreach(Dispositivo item in lista){
     Console.WriteLine(item.EjecutarFuncion());
-
+    }
 }
